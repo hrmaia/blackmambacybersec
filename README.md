@@ -33,4 +33,11 @@ it solved, where it was used, and how.
 | [`ad-threat-hunting-user-lookup`](./ad-threat-hunting-user-lookup) | During incident response: pull a suspect AD account's effective (direct + nested) group membership and flag privileged access; reverse lookup to expand a group's full membership | PowerShell, Active Directory |
 | [`windows-admin-group-investigation`](./windows-admin-group-investigation) | Incident response: investigating an unauthorized addition to the local Administrators group on a domain controller, SID resolution, event log correlation, remediation | PowerShell, Active Directory, Windows Event Log |
 
+| [`dark-web-id-alert-response-playbook`](./dark-web-id-alert-response-playbook) | Level 1/2 helpdesk playbook for triaging Dark Web ID credential-exposure alerts by severity, with response templates | Process doc, email templates |
+| [`broadcast-storm-troubleshooting-wireshark`](./broadcast-storm-troubleshooting-wireshark) | Diagnosing and resolving a Layer-2 broadcast storm caused by a switching loop | Wireshark |
+| [`voip-call-quality-troubleshooting`](./voip-call-quality-troubleshooting) | Diagnosing asymmetric VoIP call breakup via SIP/RTP analysis and QoS bandwidth sizing | Wireshark, Sophos QoS |
+| [`network-troubleshooting-nhvr-portal`](./network-troubleshooting-nhvr-portal) | TLS handshake failure traced to a Path MTU Discovery black hole | Wireshark |
+| [`network-troubleshooting-mtu-fibre-migration`](./network-troubleshooting-mtu-fibre-migration) | Intermittent website access after an ISP fibre migration, traced to missing MSS clamping | Wireshark, firewall packet capture |
+| [`rocketcyber-gpo-investigation`](./rocketcyber-gpo-investigation) | RocketCyber privilege-escalation alert triaged as a GPO-driven false positive | PowerShell, Windows Event Log |
+
 More scripts will be added here as they're reconstructed/organized.
