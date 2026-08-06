@@ -1,0 +1,25 @@
+{
+  "organizations": [
+    {
+      "name": "ClientOrg A",
+      "domain": "clientorg-a.blackmambacyber.com",
+      "match_rules": [
+        { "type": "exact", "priority": 1 },
+        { "type": "strip_suffix", "suffix": "-PC", "priority": 2 },
+        { "type": "prefix", "prefix": "COA-", "priority": 3 }
+      ]
+    },
+    {
+      "name": "ClientOrg B",
+      "domain": "clientorg-b.blackmambacyber.com",
+      "match_rules": [
+        { "type": "exact", "priority": 1 },
+        { "type": "fuzzy", "threshold": 0.85, "priority": 2 }
+      ]
+    }
+  ],
+  "output": {
+    "history_file": "history.json",
+    "max_snapshots_kept": 12
+  }
+}
