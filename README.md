@@ -31,5 +31,6 @@ it solved, where it was used, and how.
 | [`mfiles-sso-entra-id`](./mfiles-sso-entra-id) | End-to-end SSO for M-Files using Entra ID Dynamic Groups, across a cloud-only and a hybrid (Entra Connect) tenant | PowerShell, Microsoft Graph |
 | [`mfiles-msi-customization`](./mfiles-msi-customization) | Silent, pre-configured M-Files desktop client install across multiple tenants, fixing MSI/VBScript packaging issues | VBScript, MSI |
 | [`ad-threat-hunting-user-lookup`](./ad-threat-hunting-user-lookup) | During incident response: pull a suspect AD account's effective (direct + nested) group membership and flag privileged access; reverse lookup to expand a group's full membership | PowerShell, Active Directory |
+| [`windows-admin-group-investigation`](./windows-admin-group-investigation) | Incident response: investigating an unauthorized addition to the local Administrators group on a domain controller, SID resolution, event log correlation, remediation | PowerShell, Active Directory, Windows Event Log |
 
 More scripts will be added here as they're reconstructed/organized.
